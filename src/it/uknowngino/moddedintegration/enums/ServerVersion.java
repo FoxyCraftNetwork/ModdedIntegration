@@ -18,7 +18,7 @@ import static it.uknowngino.moddedintegration.main.ModdedIntegration.PLUGIN_MANA
 public enum ServerVersion {
 
     V1_12(V1_12_Implementation.class),
-    V1_16(V1_16_Implementation.class),
+    V1_16(V1_18_Implementation.class),
     V1_18(V1_18_Implementation.class);
 
     private final Class<? extends PopulationImplementation> implementationClass;
